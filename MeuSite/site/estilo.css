@@ -1,0 +1,167 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("fundo.jpeg") no-repeat center center fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bordatransparent {
+    margin: 100px 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0  , 0, 0.393);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.466);
+    border: rgba(253, 251, 251, 0.294) solid 1px;
+}
+h1.titulo1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    #subtitulo {
+    color:rgb(255, 255, 255)}
+.titulo2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+}
+ul li {
+    list-style-type: square;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-style: bold;
+    list-style-type: circle;
+}
+ul {
+    padding: 20px;
+}
+.imagem1 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.368);
+    min-width: 100%;
+}
+.paragrafo {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 40px;;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.466);
+    border: 2px 2px 4px 4px solid rgb(255, 255, 255);
+    font-size: center;
+    border: 2px 2px 4px 4px solid rgba(255, 255, 255, 0.158);
+    width: 100%;
+    padding: 100%;
+}
+.tabe td {
+    text-align: center;
+    padding: 0;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    border: rgba(255, 255, 255, 0.287) 1px solid;
+}
+    
+.tabe th {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: 0 0 10px rgba(6, 6, 6, 0.559);
+    border: rgba(255, 255, 255, 0.381) 1px solid;
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+.imagemtabela {
+    width: 0 auto;
+    height: 0 auto;
+    border-radius: 0;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+}
+.titulo1 {
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0  , 0, 0.393);
+    margin-bottom: 20px rgb(255, 255, 255);
+    
+}
+h3 {
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.393);
+    margin-bottom: 20px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.titulo2 {
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.393);
+    margin-bottom: 20px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:0;
+    border-radius: 8px;
+    font-size: center;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 15px;
+}
+button {
+    box-shadow: 0 0 10px rgba(43, 43, 43, 0.323);
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.16);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border-color: rgba(255, 255, 255, 0.291);
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+#mensagem {
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.121);
+    box-shadow: 0 0 10px rgba(25, 25, 25, 0.472);
+    margin: 10px 250px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: rgba(253, 251, 251, 0.333) 1px solid;
+    padding: 30px 40px;
+    backdrop-filter: blur(15px);
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+.espacolink {
+    margin: 40px 0 0 0;
+}
